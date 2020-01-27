@@ -54,7 +54,7 @@ if __name__ == '__main__':
             'Topic :: Scientific/Engineering :: Bio-Informatics',
         ],
         install_requires=[
-            'knnimpute',
+            # 'knnimpute',
             # need at least 1.10 for np.multi_dot
             'numpy>=1.10',
             'scipy',
@@ -62,7 +62,7 @@ if __name__ == '__main__':
             'cvxpy>=1.0.6',
             'scikit-learn>=0.21.2',
             # used by MatrixFactorization
-            'keras>=2.0.0',
+            # 'keras>=2.0.0',
             'tensorflow',
         ],
         long_description=readme_markdown,
