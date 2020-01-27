@@ -63,7 +63,7 @@ if __name__ == '__main__':
             'scikit-learn>=0.21.2',
             # used by MatrixFactorization
             # 'keras>=2.0.0',
-            'tensorflow',
+            # 'tensorflow',
         ],
         long_description=readme_markdown,
         long_description_content_type='text/markdown',
